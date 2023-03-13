@@ -34,8 +34,9 @@ d4=c(20,25,28,27)
 d5=c(30,28,31,20)
 
 doe=data.frame(d1,d2,d3,d4,d5)   # creating a df for treatments
-
-doe
+names(doe)=c("D1","D2","D3","D4")
+doe 
+#read.table, readLines,load
 rowSums(doe)
 colSums(doe)
 #total
@@ -68,7 +69,7 @@ pf=pf(f,4,15,lower.tail=F)# so when (pf<alpha)=true then accept h.
 # makes this easy.
 pfsummary(doe)
 pf
-pf>qf
+pf<qf
 # p value => use pf(f-cal,df1,df2)
 
 pf=1-pf(f,4,15)
