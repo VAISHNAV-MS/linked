@@ -9,7 +9,7 @@ t=ncol(rbd);t
 b=nrow(rbd);b
 n=b*t;n
 
-# rbd missing ku ena pananum!
+# rbd missing
 
 match(NA,rbd)
 rs=rowSums(rbd)
