@@ -1,4 +1,4 @@
-
+LATIN SQUARE DESIGN
 
 row=rep(1:5,each=5)   # column
 col=rep(1:5,5)        # rows
