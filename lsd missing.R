@@ -1,3 +1,4 @@
+LATIN SQUARE DESIGN WITH ONE MISSING VALUE
 
 row=rep(1:5,each=5)   # row
 coln=rep(1:5,5)        # columnn     'A'.'B'.'
